@@ -39,21 +39,21 @@ Lista de Exercícios:
  let numbers = [7,5,6,3,8,9,2,1,4]
 
 
-14 - Crie um objeto que receba ao menos três propriedades sobre você.
+15 - Crie um objeto que receba ao menos três propriedades sobre você.
 
 
-15 - Adicione uma nova propriedade sem alterar seu objeto inicial.
+16 - Adicione uma nova propriedade sem alterar seu objeto inicial.
 
 
-16 - Remova uma propriedade desse objeto.
+17 - Remova uma propriedade desse objeto.
 
 
-17 - Mostre no console todas as propriedades desse objeto.
+18 - Mostre no console todas as propriedades desse objeto.
 
 
-18 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
+19 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
 Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
 Na propriedade amigos, adicione ao menos 4 amigos.
 
 
-19 - Mostre no console o nome de um amigo de cada lista.
+20 - Mostre no console o nome de um amigo de cada lista.
