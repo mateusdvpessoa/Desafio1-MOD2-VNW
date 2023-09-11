@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Desafio 1 Vai na Web - Módulo 2</h1>
+    <p>Verifique as resposas no console!</p>
     <h2>Questão 01 - crie uma condição composta com uma variável dia e a condição verifica se está de dia mostre 'claro' senão mostre está 'de noite'.</h2>
-    <p>Verifique o console</p>
     <h2>Questão 02 - Crie um loop for() que exiba apenas números pares até o 20 no console.log().
     </h2>
     <h2>Questão 03 - crie uma função que exiba uma mensagem no console.</h2>
@@ -18,6 +18,20 @@
     <h2>Questão 07 - crie uma função que retorne o triplo do número recebido no parâmetro da função.</h2>
     <h2>Questão 08 - crie uma função que  verifique se uma  variável é true ou false.</h2>
     <h2>Questão 09 - Crie um array que receba 5 itens e exiba no console.</h2>
+    <h2>Questão 10 - Utilize um método para adicionar um nome ao inicio do array.</h2>
+    <h2>Questão 11 - Utilize um método para remover o último nome do array.</h2>
+    <h2>Questão 12 - Utilize um método para adicionar dois nomes ao fim do array.</h2>
+    <h2>Questão 13 - Utilize um método para remover o primeiro nome do array.</h2>
+    <h2>Questão 14 - Utilize um método para organizar em ordem crescente o seguinte array:
+        let numbers = [7,5,6,3,8,9,2,1,4]</h2>
+    <h2>Questão 15 - Crie um objeto que receba ao menos três propriedades sobre você.</h2>  
+    <h2>Questão 16 - Adicione uma nova propriedade sem alterar seu objeto inicial.</h2>  
+    <h2>Questão 17 - Remova uma propriedade desse objeto.</h2>  
+    <h2>Questão 18 - Mostre no console todas as propriedades desse objeto.</h2>  
+    <h2>Questão 19 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
+        Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
+        Na propriedade amigos, adicione ao menos 4 amigos.</h2>  
+    <h2>Questão 20 - Mostre no console o nome de um amigo de cada lista.</h2>  
     <script>
         // console.log('Questão 1')
         
@@ -87,10 +101,110 @@
         // }
         // console.log(verdadeiroOuFalso(valor))
          
-        console.log('\nQuestão 9')
-        let listaDeCompras =['tomate','arroz','feijão','banana','açúcar']
+        // console.log('\nQuestão 9')
+        // let listaDeCompras =['tomate','arroz','feijão','banana','açúcar']
 
-        console.log(listaDeCompras)
-    </script>
+        // // console.log(listaDeCompras)
+        // console.log('\nQuestão 10')
+        // let listaDeNumeros =[1,2,5,3,2,5,6,34]
+        
+        // listaDeNumeros.unshift(0)
+        // console.log(listaDeNumeros)
+        
+        // console.log('\nQuestão 11')
+        // let listaDePalavras =['Carros','Livros','Frutas','Pessoas']
+        
+        // listaDePalavras.shift()
+        // console.log(listaDePalavras)
+        
+        // console.log('\nQuestão 12')
+        // let listaDeNomesProprios =['Carlos','Leandro','Fernanda','Patrícia']
+        
+        // listaDeNomesProprios.push('Carolina','Mariana')
+        // console.log(listaDeNomesProprios)
+        
+        // console.log('\nQuestão 13')
+        // let listaDeFrutas =['Mamão','Tomate','Banana','Quiabo']
+        
+        // listaDeFrutas.pop()
+        // console.log(listaDeFrutas)
+        
+        // console.log('\nQuestão 15')
+        // let aboutMe = {
+        //     'nome':'Mateus',
+        //     'idade':25,
+        //     'nacionalidade':'brasileiro'
+        // }
+        // console.log(aboutMe)
+        
+        // console.log('\nQuestão 16')
+        // let newMe = {
+        //     'nome':'Mateus',
+        //     'idade':25,
+        //     'nacionalidade':'brasileiro'
+        // }
+        // newMe.genero = 'masculino'
+        // console.log(newMe)
+        
+        // console.log('\nQuestão 17')
+        // let itsMeAgain = {
+        //     'nome':'Mateus',
+        //     'idade':25,
+        //     'nacionalidade':'brasileiro'
+        // }
+        // delete itsMeAgain.nacionalidade
+        // console.log(itsMeAgain)
+        
+        // console.log('\nQuestão 18')
+        // let itsMeAgain = {
+        //     'nome':'Mateus',
+        //     'idade':25,
+        //     'nacionalidade':'brasileiro'
+        // }
+        // console.log(itsMeAgain)
+        
+        // propriedades: nome,  idade,  telefone, amigos.
+        // Na propriedade amigos, adicione ao menos 4 amigos.
+        console.log('\nQuestão 19')
+        let cadastro = 
+        [
+            {
+                'nome':'Tarcízio Goes Meireles',
+                'idade':38,
+                'telefone':'(99)99999-8888',
+                'amigos':['Cauê','Eike','Samuel','Nadja']
+            },
+            {
+                'nome':'Carla Zamperini Albuquerque',
+                'idade':22,
+                'telefone':'(99)99999-8888',
+                'amigos':['Daniela','Clarice','Marcos','Rafael']        
+            },
+            {
+                'nome':'Deivid Sabino de Souza',
+                'idade':17,
+                'telefone':'(99)99999-8888',
+                'amigos':['Mirna','Amanda','Natália','Hygor']    
+            },
+            {
+                'nome':'Amanda Alburquerque Queirós',
+                'idade':54,
+                'telefone':'(99)99999-8888',
+                'amigos':['Reinaldo','Adamastor','Luana','Ynês']    
+            },
+            {
+                'nome':'Dante Homero de Castro',
+                'idade':31,
+                'telefone':'(99)99999-8888',
+                'amigos':['Amanda','Hygor','Carla','Daniel']    
+            }
+        ]
+        console.log(cadastro)
+        
+        console.log('\nQuestão 20')
+        for(let i = 0;i<= 4;i++){
+            console.log(cadastro[i].amigos[Math.floor(Math.random()*3)])
+        }
+        </script>
 </body>
 </html>
